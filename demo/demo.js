@@ -2,7 +2,7 @@
  * Created by Rick on 2021-06-13.
  */
 'use strict';
-const node_console_ask = require("./node_console_ask");
+const node_console_ask = require("node_console_ask");
 
 /*
 * Submit an array of 3 questions and receive a Promise
