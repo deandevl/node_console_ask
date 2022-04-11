@@ -2,9 +2,10 @@
   "name": "@deandevlorg/node_console_ask",
   "version": "0.1.0",
   "description": "A Node.js module for asking questions and receiving an array of answers.",
-  "main": "index.js",
+  "source": "src/node_console_ask.js",
+  "main": "dist/main.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,6 @@
   },
   "homepage": "https://github.com/deandevl/node_console_ask#readme",
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "parcel": "^2.4.1"
   }
 }
