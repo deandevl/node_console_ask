@@ -1,0 +1,30 @@
+{
+  "name": "@deandevlorg/node_console_ask",
+  "version": "0.1.0",
+  "description": "A Node.js module for asking questions and receiving an array of answers.",
+  "source": "src/node_console_ask.js",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deandevl/node_console_ask.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Readline",
+    "console",
+    "question",
+    "answer"
+  ],
+  "author": "Rick Dean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deandevl/node_console_ask/issues"
+  },
+  "homepage": "https://github.com/deandevl/node_console_ask#readme",
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  }
+}

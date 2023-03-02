@@ -1,0 +1,14 @@
+{
+  "name": "demo",
+  "description": "A demonstration of Node.js module 'node_console_ask'",
+  "main": "node_console_ask.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rick Dean",
+  "license": "MIT",
+  "dependencies": {
+    "node_console_ask": "git+https://github.com/deandevl/node_console_ask.git"
+  }
+}
